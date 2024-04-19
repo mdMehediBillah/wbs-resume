@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(246, 246, 240);
+  font-family: Arial;
+  line-height: 1.6rem;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 2rem;
+}
+
+header,
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.4rem auto 1rem;
+  width: 80vw;
+  max-width: 900px;
+}
+#header li {
+  list-style-type: none;
+}
+
+#header p {
+  padding-bottom: 0.4rem;
+  padding-top: 0.6rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.social-link {
+  display: flex;
+}
+
+.social-connection {
+  margin-right: 0.2rem;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 0.2rem 2rem;
+  border-radius: 0.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+h4 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+ul {
+  font-size: 0.9rem;
+}
+
+.expart-text {
+  margin-top: 1.4rem;
+}
+
+#objective li,
+#experience li,
+#education li {
+  margin-left: 1rem;
+}
+
+#objective p {
+  max-width: 800px;
+}
